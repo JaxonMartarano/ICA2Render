@@ -24,6 +24,7 @@ async function setDatabaseConnction() {
             database: 'database-1'
         });
     }
+    console.log("it work cuh");
 }
 
 module.exports = {
