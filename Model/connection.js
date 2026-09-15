@@ -18,8 +18,8 @@ async function setDatabaseConnction() {
     //Singleton DB connection
     if (null === connection) {
         connection = await mysql.createConnection({
-            host: 'localhost',
-            user: 'root',
+            host: 'database-1.ctik648440ea.us-east-2.rds.amazonaws.com',
+            user: 'admin',
             password: 'Mamamia33!!!??',
             database: 'database-1'
         });
